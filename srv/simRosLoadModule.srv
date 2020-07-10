@@ -13,4 +13,4 @@
 string fileName
 string pluginName
 ---
-int32 result
+int32 pluginHandle
