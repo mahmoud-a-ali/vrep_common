@@ -32,7 +32,8 @@ simRosGetAndClearStringSignal.srv  simRosGetObjects.srv               simRosSetI
 simRosGetArrayParameter.srv        simRosGetStringParameter.srv       simRosSetIntegerSignal.srv            simRosTransferFile.srv
 simRosGetBooleanParameter.srv      simRosGetStringSignal.srv          simRosSetJointForce.srv               simRosRemoveModel.srv
 simRosGetCollisionHandle.srv       simRosGetUIButtonProperty.srv      simRosSetJointPosition.srv            simRosGetCollectionHandle.srv
-simRosCallScriptFunction.srv)
+simRosCallScriptFunction.srv 		simRosLoadModule.srv
+)
 
 generate_messages(DEPENDENCIES std_msgs sensor_msgs)
 
