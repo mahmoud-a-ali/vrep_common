@@ -1,4 +1,4 @@
-# Coppeliasim_msgs_srvs
+# coppeliasim_msgs_srvs
 This package is an update of the [vrep_common] package -by [Jonathan Cacace][]- which contains the definitation of the required msgs and srvs that enable ros to communicate with the coppeliasim simulator. this package is one of 5 ros packages to have a fully ros-integration of Coppeliasim.
 
 For more information about these services/messages and how it can be used to communicate with Coppeliasim, you can check the [coppeliasim_APIs][] page.
