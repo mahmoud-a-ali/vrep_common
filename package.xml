@@ -1,11 +1,12 @@
 <package>
-  <name>vrep_common</name>
-  <description>Common messages</description>
+  <name>coppeliasim_msgs_srvs </name>
+  <description>coppeliasim messages and services</description>
+  <maintainer email="mahmud.a.aly@gmail.com">Mahmoud</maintainer>
   <maintainer email="marc@coppeliarobotics.com">Marc</maintainer>
-  <version>3.3.0</version>
-  <author>Marc</author>
+  <version>4.0.0</version>
+  <author email="marc@coppeliarobotics.com">Marc</author>
   <license>GPLv3</license>
-  <url>http://www.coppeliarobotics.com</url>
+  <url>https://github.com/mahmoud-a-ali/coppeliasim_msgs_srvs</url>
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>roscpp</build_depend>
   <build_depend>std_msgs</build_depend>
