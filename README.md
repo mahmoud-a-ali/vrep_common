@@ -24,9 +24,9 @@ This package does not generate any excutables, only header files for different m
 
 ### Usage
 This package contains 8 msgs and 99 srvs definitions files. Here is an explanation of few msgs/srvs defined in this package:
-
 - `simRosStartSimulation.srv`: to start the simulation in coppeliasim. Request part of the service is empty,  The response is an `int` indicates if the simulation is successfuly started or not.For more information check the  [simStartSimulation()][] API. 
 - `simRosLoadScene.srv`: to load a scene in coppeliasim. Request part of the service contains the scene file,  The response is an `int` indicates if the scene is successfuly loaded or not. For more information check the [simLoadScene()][] API.
+- `SimInfo.msg`: A ros-msg contains information about the simulation state inside coppeliasim e.g. simulatorState, simulationTime, and timeStep. 
 - ....
 
 For more information about all the services/messages and how it can be used to communicate with Coppeliasim, you can check the [coppeliasim_APIs][] page.
@@ -46,5 +46,3 @@ Refer to [coppeliasim_ros_services][] or [ur5_coppeliasim_roscontrol][] packages
  [simLoadScene()]: https://www.coppeliarobotics.com/helpFiles/en/regularApi/simLoadScene.htm
 
 [vrep_common]: https://github.com/jocacace/vrep_common
-[Jonathan Cacace]: http://wpage.unina.it/jonathan.cacace/
-[coppeliasim_APIs]: https://www.coppeliarobotics.com/helpFiles/en/apiFunctionListCategory.htm
