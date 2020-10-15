@@ -9,7 +9,7 @@ The following instructions assume that a Catkin workspace has been created at `$
 cd $HOME/catkin_ws/src
 
 # Clone coppeliasim_msgs_srvs pkg 
-git clone https://github.com/mahmoud-a-ali/coppeliasim_msgs_srvs
+git clone https://github.com/tud-cor/coppeliasim_msgs_srvs
 
 # change to the root of the workspace
 cd ..
@@ -38,8 +38,8 @@ Refer to [coppeliasim_ros_services][] or [ur5_coppeliasim_roscontrol][] packages
 
 [Jonathan Cacace]: http://wpage.unina.it/jonathan.cacace/
 [coppeliasim_APIs]: https://www.coppeliarobotics.com/helpFiles/en/apiFunctionListCategory.htm
-[coppeliasim_ros_services]: https://github.com/mahmoud-a-ali/coppeliasim_ros_services
-[Coppeliasim_msgs_srvs]: https://github.com/mahmoud-a-ali/Coppeliasim_msgs_srvs
+[coppeliasim_ros_services]: https://github.com/tud-cor/coppeliasim_ros_services
+[Coppeliasim_msgs_srvs]: https://github.com/tud-cor/Coppeliasim_msgs_srvs
 [vrep_plugin]: https://github.com/jocacace/vrep_plugin
 [coppeliasim]: https://www.coppeliarobotics.com/
 [ur5_coppeliasim_roscontrol]: https://github.com/tud-cor/ur5_coppeliasim_roscontrol
